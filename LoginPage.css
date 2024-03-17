@@ -9,26 +9,34 @@
 }
 
 body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
     background-image: url(Photos/cosmic-rotation.3840x2160.gif);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center  -250px; /* This will move the background image to the top */
-    margin-bottom: 500px;
-    padding: 0;
-    overflow: hidden;
+    background-position: center -150px; 
+    padding: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 .Container {
     background: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.496), rgba(15, 15, 15, 0.474));
     text-align: center;
-    margin: 150px auto; 
     height: 280px; 
     width: 200px; 
     border: 1px solid white;
     padding: 100px;
     border-radius: 10px;
+    position: relative;
+    top: -120px;
 }
+
+
 
 .Title{
     font-size: 30px;
